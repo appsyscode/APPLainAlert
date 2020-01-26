@@ -54,10 +54,8 @@
     APAlert.titleFont = [UIFont fontWithName:@"TrebuchetMS" size:15];
     APAlert.subTitleFont = [UIFont fontWithName:@"TrebuchetMS-Italic" size:12];
     APAlert.shouldShowCloseIcon = YES;
-    APAlert.messageColor=[UIColor clearColor];
-    APAlert.blurBackground=YES;
     APAlert.messageColorTitle=[UIColor blackColor];
-    APAlert.messageColorSubtitle=[UIColor lightGrayColor];
+    APAlert.messageColorSubtitle=[UIColor darkGrayColor];
     APAlert.iconColor=[UIColor blackColor];
     APAlert.hiddenDelay=20.f;
     
