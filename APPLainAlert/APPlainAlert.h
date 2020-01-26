@@ -3,6 +3,7 @@
 @protocol APPlainAlertDelegate <NSObject>
 
 -(void)progressStatus:(float)floatcount;
+-(void)closeButtonAction;
 
 @end
 typedef enum : NSUInteger {

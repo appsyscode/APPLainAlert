@@ -494,7 +494,9 @@ static NSMutableArray * currentAlertArray = nil;
 
 - (void)onCloseTap:(UIGestureRecognizer *)gesture
 {
-    NSLog(@"Close");
+       if ([[self delegate] respondsToSelector:@selector(closeButtonAction)]) {
+             [self.delegate closeButtonAction];
+         }
     [self hide];
 }
 

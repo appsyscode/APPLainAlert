@@ -58,6 +58,7 @@
     APAlert.messageColorSubtitle=[UIColor darkGrayColor];
     APAlert.iconColor=[UIColor blackColor];
     APAlert.hiddenDelay=20.f;
+    APAlert.delegate=self;
     
     [APAlert show];
 
@@ -123,6 +124,9 @@
         [progressAlert hidedelayprogress];
     
     }
+}
+-(void)closeButtonAction{
+    NSLog(@"Close InfoView");
 }
 -(void)downloadfile{
     
