@@ -14,6 +14,8 @@
 		5052838823D62F74005D512C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5052838723D62F74005D512C /* Assets.xcassets */; };
 		5052838B23D62F74005D512C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5052838923D62F74005D512C /* LaunchScreen.storyboard */; };
 		5052838E23D62F74005D512C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5052838D23D62F74005D512C /* main.m */; };
+		5052839623D62FD0005D512C /* APPlainAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5052839423D62FD0005D512C /* APPlainAlert.m */; };
+		5052839A23D8B42D005D512C /* bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5052839923D8B42D005D512C /* bg2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		5052838A23D62F74005D512C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5052838C23D62F74005D512C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5052838D23D62F74005D512C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5052839423D62FD0005D512C /* APPlainAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPlainAlert.m; sourceTree = "<group>"; };
+		5052839523D62FD0005D512C /* APPlainAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPlainAlert.h; sourceTree = "<group>"; };
+		5052839923D8B42D005D512C /* bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,8 @@
 		5052837A23D62F70005D512C /* APPLainAlert */ = {
 			isa = PBXGroup;
 			children = (
+				5052839523D62FD0005D512C /* APPlainAlert.h */,
+				5052839423D62FD0005D512C /* APPlainAlert.m */,
 				5052837B23D62F70005D512C /* AppDelegate.h */,
 				5052837C23D62F70005D512C /* AppDelegate.m */,
 				5052837E23D62F70005D512C /* SceneDelegate.h */,
@@ -70,6 +77,7 @@
 				5052838423D62F70005D512C /* Main.storyboard */,
 				5052838723D62F74005D512C /* Assets.xcassets */,
 				5052838923D62F74005D512C /* LaunchScreen.storyboard */,
+				5052839923D8B42D005D512C /* bg2.jpg */,
 				5052838C23D62F74005D512C /* Info.plist */,
 				5052838D23D62F74005D512C /* main.m */,
 			);
@@ -133,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5052839A23D8B42D005D512C /* bg2.jpg in Resources */,
 				5052838B23D62F74005D512C /* LaunchScreen.storyboard in Resources */,
 				5052838823D62F74005D512C /* Assets.xcassets in Resources */,
 				5052838623D62F70005D512C /* Main.storyboard in Resources */,
@@ -146,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5052839623D62FD0005D512C /* APPlainAlert.m in Sources */,
 				5052838323D62F70005D512C /* ViewController.m in Sources */,
 				5052837D23D62F70005D512C /* AppDelegate.m in Sources */,
 				5052838E23D62F74005D512C /* main.m in Sources */,
@@ -292,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SG9W32CNHL;
 				INFOPLIST_FILE = APPLainAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SG9W32CNHL;
 				INFOPLIST_FILE = APPLainAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
